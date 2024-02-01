@@ -13,5 +13,5 @@ app.use(route.getUserInformationByID);
 
 app.use(route.postUserInformation);
 app.use(route.deleteUserInformation);
-
+app.use(route.patchUserInformation);
 app.listen(port, console.log(`Servidor rodando na porta ${port}`));
